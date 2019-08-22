@@ -4,5 +4,6 @@ class ChattyStudent < Student
   end
   
   def hello 
+    super << ""
   end
 end
